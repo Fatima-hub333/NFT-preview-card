@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  color: hsl(0, 0%, 100%);
+}
+
+.container {
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 15px;
+  width: 280px;
+  margin: 120px auto;
+  padding: 20px;
+}
+
+#logo img{
+  width: 260px;
+  padding-right: 20px;
+}
+
+.sub-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid hsl(215, 32%, 27%);
+  padding-bottom: 20px;
+}
+
+.sub-content span img{
+  margin-right: 6px;
+  align-items: center;
+  /* padding-top: 6px; */
+}
+
+
+footer {
+  display: flex;
+  gap: 10px;
+}
+
+footer img {
+  width: 50px;
+}
