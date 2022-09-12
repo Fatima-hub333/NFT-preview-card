@@ -7,6 +7,7 @@
 body {
   background-color: hsl(217, 54%, 11%);
   color: hsl(0, 0%, 100%);
+  font-family: 'Outfit', sans-serif;
 }
 
 .container {
@@ -17,9 +18,16 @@ body {
   padding: 20px;
 }
 
+main {
+  color: hsl(215, 51%, 70%);
+  font-size: 18px;
+  font-weight: 300;
+}
+
 #logo img{
-  width: 260px;
-  padding-right: 20px;
+  width: 250px;
+  margin-left: -5px;
+  border-radius: 10px;
 }
 
 .sub-content {
@@ -27,7 +35,10 @@ body {
   justify-content: space-between;
   align-items: center;
   border-bottom: 2px solid hsl(215, 32%, 27%);
+  color: hsl(178, 100%, 50%);
   padding-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 15px;
 }
 
 .sub-content span img{
@@ -36,6 +47,9 @@ body {
   /* padding-top: 6px; */
 }
 
+.sub-content .clock {
+  color: hsl(215, 51%, 70%);
+}
 
 footer {
   display: flex;
