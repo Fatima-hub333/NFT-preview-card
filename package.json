@@ -1,0 +1,27 @@
+{
+  "name": "nft-preview-card",
+  "version": "1.0.0",
+  "description": "NFT preview card where users should be able to view the optimal layout depending on their device's screen size &amp; See hover states for interactive elements.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fatima-hub333/NFT-preview-card.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fatima-hub333/NFT-preview-card/issues"
+  },
+  "homepage": "https://github.com/Fatima-hub333/NFT-preview-card#readme",
+  "devDependencies": {
+    "hint": "^7.1.2",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  }
+}

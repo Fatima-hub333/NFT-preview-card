@@ -24,7 +24,16 @@ main {
   font-weight: 300;
 }
 
-#logo img{
+footer img {
+  width: 50px;
+}
+
+.sub-content span img {
+  margin-right: 6px;
+  align-items: center;
+}
+
+#logo img {
   width: 250px;
   margin-left: -5px;
   border-radius: 10px;
@@ -41,12 +50,6 @@ main {
   margin-bottom: 15px;
 }
 
-.sub-content span img{
-  margin-right: 6px;
-  align-items: center;
-  /* padding-top: 6px; */
-}
-
 .sub-content .clock {
   color: hsl(215, 51%, 70%);
 }
@@ -54,8 +57,4 @@ main {
 footer {
   display: flex;
   gap: 10px;
-}
-
-footer img {
-  width: 50px;
 }
